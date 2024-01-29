@@ -1,0 +1,995 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+a{
+    text-decoration:none;
+}
+ul{
+    list-style:none;
+}
+.contenar{
+    width:1170px;
+    margin:0 auto;
+    /* background-color: tomato; */
+}
+
+/* Common Css end */
+
+
+/* Nav style start */
+nav {
+    width: 100%;
+    background-color: #8B85B6;
+}
+nav .main_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .main_nav .logo{
+    
+}
+nav .main_nav ul{
+    padding:19.5px 0px 19.5px 0px;
+}
+nav .main_nav ul li {
+    display: inline-block;
+}
+nav .main_nav ul li a {
+    color: #EFF4FA;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 33px;
+}
+nav .main_nav ul li:last-child a {
+  padding-right:0px;
+}
+nav .main_nav ul li img{
+    
+}
+nav .main_nav .btn{
+    
+}
+nav .main_nav .btn a{
+    padding: 14px 28px;
+    border-radius: 100px;
+    background: #1BBF00;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 200%;
+    text-transform: capitalize;
+
+}
+
+/* Nav style end */
+
+/* Bennar section start */
+.bennar{
+    width:100%;
+    height:960px;
+    background:url('img/image.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    position: relative;
+    z-index: 9;
+}
+.bennar .group_img {
+    top: 80%;
+    left: 89%;
+    position: absolute;
+    transform: translate(-80%, -89%);
+}
+.bg_color {
+    width: 100%;
+    height: 960px;
+    background-color: #6B62C5;
+    padding: 146px 0px 735px 0px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    opacity: 0.9;
+    z-index: -1;
+}
+.bennar .bennar_text {
+    width: 91%;
+    margin: 0 auto;
+    padding: 146px 0px 614px 0px;
+    text-align: center;
+}
+.bennar .bennar_text h1{
+color: #FAFAFE;
+text-align: center;
+font-family: "Open Sans";
+font-size: 84px;
+font-weight: 700;
+line-height: 100px;
+text-transform: capitalize;
+padding-bottom:20px;
+}
+.bennar .bennar_text p{
+color: #E6E5F3;
+text-align: center;
+font-family: Paprika;
+font-size: 24px;
+font-weight: 400;
+line-height: 40px;
+padding-bottom:16px;
+}
+
+.bennar .bennar_text .two_btn {
+    padding-top: 20px;
+}
+.bennar .bennar_text .two_btn .frist_btn {
+    background-color: #1BBF00;
+    border-radius: 100px;
+    padding: 20px 40px;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin-right: 28px;
+}
+
+.bennar .bennar_text .two_btn .second_btn {
+    border-radius: 100px;
+    border: 2px solid #1BBF00;
+    padding:20px 40px;
+    color: #F9F9F9;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* Bennar section end */
+
+/* Happy Clien section start  */
+.happy_client{
+    width:100%;
+    background: #F9F9FB;
+}
+.happy_client .projects {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 210px 0px 104px 0px;
+    position: relative;
+}
+.happy_client .projects .gets_award {
+    width: 31.5%;
+    text-align: center;
+}
+
+.happy_client .projects .gets_award h2{
+    color: #1BBF00;
+    font-family: "Open Sans";
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 68px;
+    padding-bottom:24px;
+}
+.happy_client .projects .gets_award p{
+    color: #141135;
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+.happy_client .projects .gets_award::after {
+    content: '';
+    position: absolute;
+    left: 280px;
+    right: 0px;
+    top: 205px;
+    height: 132px;
+    width: 2px;
+    background-color: #4F585F;
+    opacity: 0.2;
+    stroke-width: 2px;
+}
+
+.happy_client .projects .secondafter::after {
+    content: '';
+    position: absolute;
+    left: 584px;
+    right: 0px;
+    top: 205px;
+    height: 132px;
+    width: 3px;
+    background-color: #4F585F;
+    opacity: 0.2;
+    stroke-width: 2px;
+}
+
+.happy_client .projects .thredafter::after {
+    content: '';
+    position: absolute;
+    left: 860px;
+    right: 0px;
+    top: 205px;
+    height: 132px;
+    width: 3px;
+    background-color: #4F585F;
+    opacity: 0.2;
+    stroke-width: 2px;
+}
+
+/* Happy Clien section end  */
+
+
+/* Why Choose Us section start */
+.choose {
+    width: 100%;
+    position: relative;
+    background: #FDFDFD;
+    margin-top: 158px;
+}
+.choose img{
+/* top:0;
+left:0; */
+/* position:absolute; */
+}
+.choose .choose_flex {
+    display: flex;
+}
+.choose .choose_flex .processes {
+    width: 39%;
+    padding: 100px 0px 91px 0px;
+}
+.choose .choose_flex .processes .processes_text:first-child {
+    padding: 42px 0px 42px 0px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 10px 30px 60px 0px rgba(162, 169, 192, 0.15);
+    margin-bottom: 32px;
+}
+.choose .choose_flex .processes .processes_text:nth-child(3) p {
+    padding: 17px 0px 2px 0px;
+}
+.choose .choose_flex .processes .processes_text {
+    display: flex;
+    align-items: center;
+}
+.choose .choose_flex .processes .processes_text p{
+    color: #726E9E;
+    font-family: Paprika;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.choose .choose_flex .processes .processes_text .processes_img {
+    padding: 0px 27px 0px 34px;
+}
+.choose .choose_flex .technology {
+    width: 60%;
+}
+
+.choose .choose_flex .technology .technology_text {
+    width: 60%;
+    margin: 0 auto;
+    margin-right: 20px;
+    padding: 100px 0px 227px 0px;
+}
+.choose .choose_flex .technology .technology_text h3{
+    color: #141135;
+    font-family: "Open Sans";
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom:9px;
+}
+.choose .choose_flex .technology .technology_text p{
+    color: #726E9E;
+    font-family: Paprika;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.choose .choose_flex .technology .technology_text a {
+    padding: 20px 40px;
+    border-radius: 100px;
+    background: #1BBF00;
+    color: #F9F9F9;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 41px;
+    display: inline-block;
+}
+
+/* Why Choose Us section end */
+
+
+/* What We Do start */
+.working {
+    width: 100%;
+    background: #F6F5FF;
+}
+.working .working_flex {
+    display: flex;
+    padding-top: 100px;
+}
+.working .working_flex .display_flex {
+    width: 30%;
+    height: 395px;
+    text-align: center;
+}
+.working .working_flex .display_flex:first-child {
+    width: 32%;
+    height: 395px;
+    text-align: center;
+    border: none;
+    box-shadow: 0px 0px 0px 0px;
+    margin-right: 34px;
+}
+.working .working_flex .display_flex:first-child h4{
+    color: #141135;
+    font-family: "Open Sans";
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom:20px;
+}
+.working .working_flex .display_flex:first-child p {
+    color: #6C7D93;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    padding-bottom:56px;
+}
+
+.working .working_flex .display_flex:first-child a {
+    padding: 14px 17px;
+    border-radius: 100px;
+    background: #1BBF00;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 10px;
+    display: inline-block;
+    margin-bottom: 140px;
+    margin-right: 258px;
+}
+.working .working_flex .display_flex:nth-child(2){
+    width: 30%;
+    height: 395px;
+    background: #6B62C5;
+    border-radius: 20px;
+    box-shadow: 0px 30px 60px 0px rgba(162, 169, 192, 0.10);
+    margin-right: 30px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 37px;
+}
+.working .working_flex .display_flex:nth-child(2) img {
+    padding: 48px 98px 35px 102px;
+}
+.working .working_flex .display_flex:nth-child(2) h4 {
+    color: #FAFAFE;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.working .working_flex .display_flex:nth-child(2) a {
+    /* width: 27px;
+    height: 40px;
+    border-radius: 0px 100px 100px 0px;
+    opacity: 0.3;
+    background: #1BBF00; */
+    color: #F4F4F5;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    display: inline-block;
+    margin-top: 134px;
+    padding-bottom: 50px;
+}
+.working .working_flex .display_flex:nth-child(3) {
+    width: 30%;
+    height: 395px;
+    background: #FFF;
+    border-radius: 20px;
+    box-shadow: 0px 30px 60px 0px rgba(162, 169, 192, 0.10);
+    margin-right: 30px;
+    margin-bottom: 15px;
+    padding-left: 37px;
+    padding-right: 37px;
+}
+.working .working_flex .display_flex:nth-child(3) img {
+    padding: 51px 154px 30px 113px;
+}
+.working .working_flex .display_flex:nth-child(3) h4{
+    color: #141135;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.working .working_flex .display_flex:nth-child(3) p{
+    color: #726E9E;
+    text-align: center;
+    font-family: Paprika;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom:13px;
+}
+.working .working_flex .display_flex:nth-child(3) a{
+    color: #141135;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px; 
+}
+
+
+.working2_flex {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+
+
+.working2_flex .display_flex {
+    width: 31%;
+    height: 395px;
+    background: #FFF;
+    border-radius: 20px;
+    box-shadow: 0px 30px 60px 0px rgba(162, 169, 192, 0.10);
+    margin-right: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.working2_flex .display_flex img{
+    padding: 48px 154px 32px 152px;
+}
+.working2_flex .display_flex h4{
+    color: #141135;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.working2_flex .display_flex p {
+    color: #726E9E;
+    text-align: center;
+    font-family: Paprika;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 13px;
+    padding-left: 36px;
+    padding-right: 37px;
+}
+.working2_flex .display_flex a{
+    color: #141135;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px; 
+}
+
+/* What We Do end */
+
+/* We create real impact start */
+.impact{
+    width:100%;
+}
+
+.impact .impact_text {
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.impact .impact_text h4{
+    color: #141135;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom:23px;
+}
+.impact .impact_text p{
+    color: #726E9E;
+    text-align: center;
+    font-family: Paprika;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom:75px;
+}
+
+.impact .real_impact {
+    display: flex;
+}
+.impact .real_impact .impact_flex {
+    width: 39%;
+    margin-right: 132px;
+    padding-bottom: 200px;
+}
+.impact .real_impact .impact_flex .impact_top {
+    width: 100%;
+    display: flex;
+    padding-bottom: 40px;
+}
+.impact .real_impact .impact_flex .impact_top img {
+    width: 100px;
+    height: 85px;
+    padding-right: 35px;
+}
+.impact .real_impact .impact_flex .impact_top h3{
+    color: #141135;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    padding-bottom:20px;
+}
+.impact .real_impact .impact_flex .impact_top p{
+    color: #726E9E;
+    font-family: Paprika;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.impact .real_impact .impact_flex .impact_bottom{
+    width: 100%;
+    display: flex;
+}
+.impact .real_impact .impact_bottom img{
+    width: 100px;
+    height: 85px;
+    padding-right: 35px;
+}
+.impact .real_impact .impact_flex .impact_bottom h3{
+    color: #141135;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    padding-bottom:20px;
+}
+.impact .real_impact .impact_flex .impact_bottom p{
+    color: #726E9E;
+    font-family: Paprika;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.impact_flex{
+ position: relative;
+}
+.impact_flex .img_flex {
+    display: flex;
+    align-items: center;
+}
+.impact_flex .image1 {
+    width: 227.087px;
+    height: 273.092px;
+    border-radius: 20px;
+    background: #C4C4C4;
+    box-shadow: 0px 20px 60px 0px rgba(162, 169, 192, 0.25);
+    top: 34px;
+    left: 20px;
+    position: absolute;
+}
+.impact_flex .image2 {
+    width: 161.506px;
+    height: 140.951px;
+    border-radius: 20px;
+    background: #C4C4C4;
+    box-shadow: 0px 10px 60px 0px rgba(162, 169, 192, 0.25);
+    top: 5px;
+    left: 269px;
+    position: absolute;
+}
+.impact_flex .image3 {
+    width: 310px;
+    height: 264px;
+    border-radius: 20px;
+    border: 6px solid #FFF;
+    background: #C4C4C4;
+    box-shadow: 0px 30px 60px 0px rgba(162, 169, 192, 0.25);
+    top: 171px;
+    left: 184px;
+    position: absolute;
+}
+.impact_flex .image4 {
+    width: 129.999px;
+    height: 105.842px;
+    top: 71px;
+    left: 399px;
+    position: absolute;
+}
+/* We create real impact end */
+
+
+/* Choose The Right Plan start */
+.right_plan {
+    width: 100%;
+    background: #F9F9FB;
+}
+.right_plan .righttitel {
+    text-align: center;
+}
+.right_plan .righttitel h5{
+    color: #141135;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 48px;
+    font-weight: 700;
+    padding-top:100px;
+}
+
+.right_plan .right_flex {
+    display: flex;
+    padding: 64px 0px 100px 0px;
+}
+.right_plan .right_flex .basic {
+    width: 370px;
+    height: 561px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 30px 60px 0px rgba(162, 169, 192, 0.15);
+    text-align: center;
+    padding-right: 30px;
+}
+.right_plan .right_flex .basic img {
+    background: #F9F9FB;
+}
+.right_plan .right_flex .basic:nth-child(2) {
+    border-radius: 20px;
+    background: #6B62C5;
+    box-shadow: 0px 30px 60px 0px rgba(162, 169, 192, 0.15);
+    padding-right: 0px;
+    margin-right: 30px;
+}
+.right_plan .right_flex .basic:nth-child(2) img {
+    background: #8981d1;
+}
+.right_plan .right_flex .basic:nth-child(2) h4 {
+    color: white;
+    padding: 60px 38px 23px 49px;
+}
+.right_plan .right_flex .basic:nth-child(2) p {
+    color: #E6E5F3;
+}
+.right_plan .right_flex .basic .basic-img {
+    width: 100%;
+    /* background: url(<path-to-image>), lightgray 23.117px -64.033px / 93.428% 176.872% no-repeat; */
+}
+.right_plan .right_flex .basic h4 {
+    color: #141135;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    padding: 60px 148px 23px 144px;
+}
+.right_plan .right_flex .basic h2 {
+    color: #1BBF00;
+    font-family: Nunito;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 50px;
+    padding: 20px 150px 12px 133px;
+}
+.right_plan .right_flex .basic sup {
+    color: #1BBF00;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 25px;
+   
+}
+.right_plan .right_flex .basic p {
+    color: #726E9E;
+    text-align: center;
+    font-family: Paprika;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 0px 59px 59px 59px;
+}
+/* Choose The Right Plan end */
+
+
+/* What The People Thinks About Us start */
+.people_think {
+    width: 100%;
+    background: #F8F8FF;
+    padding-bottom: 100px;
+}
+.people_think .think_titel {
+    text-align: center;
+}
+.people_think .think_titel h4 {
+    color: #141135;
+    font-family: "Open Sans";
+    font-size: 48px;
+    font-weight: 700;
+    padding: 100px 0px 0px 0px;
+}
+
+.people_think .people_about {
+    width: 1080px;
+    height: 461px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: -15px 30px 50px 0px rgba(171, 175, 199, 0.30);
+    margin-top: 152px;
+    text-align: center;
+}
+.people_think .people_about .think_img {
+    top: -64px;
+    left: 123px;
+    border-radius: 50%;
+    position: relative;
+}
+.people_think .people_about p {
+    color: #726E9E;
+    text-align: center;
+    font-family: Paprika;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 38px 146px 48px 134px;
+}
+.people_think .people_about h6{
+    color: #221A2C;
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    padding-bottom:4px;
+}
+
+.people_think .people_about span{
+    color: #726E9E;
+    font-family: Paprika;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom:56px;
+}
+/* What The People Thinks About Us start */
+
+
+/* You May Also Like start  */
+.mayalso_like {
+    width: 100%;
+    background: #F9F9FB;
+    padding-bottom: 84px;
+}
+.mayalso_like .mayalso_titel{
+    
+}
+.mayalso_like .mayalso_titel h2 {
+    color: #030314;
+    /* text-align: center; */
+    font-family: "Open Sans";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: -2px;
+    padding: 100px 0px 47.5px 0px;
+}
+
+.mayalso_like .mayalso_flex {
+    display: flex;
+}
+
+.mayalso_like .mayalso_flex .mayalso_left {
+    width: 379px;
+    height: 253px;
+    background: #C4C4C4;
+    border-radius: 20px;
+    margin-bottom: 27px;
+    margin-right: 80px;
+}
+.mayalso_like .mayalso_flex .mayalso_right{
+
+}
+.mayalso_like .mayalso_flex .mayalso_right ul{
+
+}
+.mayalso_like .mayalso_flex .mayalso_right ul li {
+    display: inline;
+}
+.mayalso_like .mayalso_flex .mayalso_right ul li:first-child a {
+    color: #1BBF00;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -1px;
+    padding-right: 36px;
+}
+.mayalso_like .mayalso_flex .mayalso_right ul li:nth-child(2) a{
+    color: #726E9E;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px; 
+    padding-right: 8px;
+}
+.mayalso_like .mayalso_flex .mayalso_right ul li:nth-child(3) a{
+    color: #726E9E;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    padding-right: 24px;
+}
+.mayalso_like .mayalso_flex .mayalso_right ul li:nth-child(4) a{
+    color: #726E9E;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    padding-right: 12px;
+}
+.mayalso_like .mayalso_flex .mayalso_right ul li:nth-child(5) a{
+    color: #726E9E;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.mayalso_like .mayalso_flex .mayalso_right h4 {
+    color: #141135;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -1.5px;
+    padding: 15px 215px 23px 0px;
+}
+.mayalso_like .mayalso_flex .mayalso_right a {
+    color: #141135;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* You May Also Like start  */
+
+
+/* footer section start  */
+footer {
+    width: 100%;
+    background: #48409C;
+}
+footer .footer_flex{
+    display:flex;
+}
+footer .footer_flex .footer_left {
+    width: 40%;
+    padding-top: 140px;
+}
+footer .footer_flex .footer_left .footer_log {
+    padding-bottom: 44px;
+}
+footer .footer_flex .footer_left p {
+    color: #FEFEFE;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    text-transform: capitalize;
+    padding-right: 64px;
+    padding-bottom: 189px;
+}
+
+footer .footer_flex .footer_right {
+    width: 60%;
+    padding-top: 140px;
+    display: flex;
+    justify-content: space-around;
+}
+footer .footer_flex .footer_right .features {
+    padding-right: 100px;
+}
+footer .footer_flex .footer_right:nth-child(2) .features {
+    padding-right: 140px;
+}
+footer .footer_flex .footer_right .features:last-child {
+    padding-right: 0px;
+}
+
+footer .footer_flex .footer_right h4 {
+    color: #FEFEFE;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    padding-bottom: 48px;
+}
+footer .footer_flex .footer_right ul{
+
+}
+footer .footer_flex .footer_right ul li{
+    padding-bottom:15px;
+}
+footer .footer_flex .footer_right ul li a {
+    color: #FEFEFE;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+footer .contenar .last_part {
+    display: flex;
+}
+footer .contenar .last_part h5 {
+    color: #FEFEFE;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    text-transform: capitalize;
+    padding-right: 530px;
+    padding-bottom:57px;
+}
+footer .contenar .last_part ul{
+    
+}
+footer .contenar .last_part ul li {
+    display: inline-block;
+}
+
+footer .contenar .last_part ul li a {
+    padding-right: 36px;
+    color: #FEFEFE;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    text-transform: capitalize;
+}
+
+
+/* footer section end  */
